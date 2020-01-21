@@ -4,6 +4,10 @@ import 'package:angular_components/angular_components.dart';
 @Component(
   selector: 'my-chip',
   templateUrl: 'material_chip.html',
-  directives: [MaterialChipComponent, MaterialCheckboxComponent],
+  directives: [
+    MaterialChipComponent,
+    MaterialCheckboxComponent,
+    MaterialIconComponent
+  ],
 )
 class MaterialChipDemo {}
