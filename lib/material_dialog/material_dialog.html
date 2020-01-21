@@ -1,0 +1,24 @@
+<material-button (trigger)="showBasicDialog = true"
+                 [disabled]="showBasicDialog"
+                 raised>
+  Open Basic Dialog
+</material-button>
+
+<modal [(visible)]="showBasicDialog">
+  <material-dialog class="basic-dialog">
+
+    <h1 header>Dialog title</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      
+    </p>
+
+    <div footer>
+      <material-button  (trigger)="showBasicDialog = false">
+        Close
+      </material-button>
+    </div>
+
+  </material-dialog>
+</modal>
