@@ -8,9 +8,9 @@ import 'package:angular_project/material_dialog/material_dialog.dart';
 import 'package:angular_project/material_dropdown/material_dropdown_select.dart';
 import 'package:angular_project/material_list/material_list.dart';
 import 'package:angular_project/material_progress/material_progress.dart';
+import 'package:angular_project/material_spinner/material_spinner.dart';
 import 'package:angular_project/material_tab/material_tab.dart';
 import 'package:angular_project/material_tooltip/material_tooltip.dart';
-
 import 'package:angular_project/src/hero_service.dart';
 import 'package:angular_project/src/route_path.dart';
 import 'package:angular_project/src/routes.dart';
@@ -30,7 +30,8 @@ import 'package:angular_router/angular_router.dart';
     MaterialListDemo,
     MaterialProgressDemo,
     MaterialTabDemo,
-    MaterialTooltipDemo
+    MaterialTooltipDemo,
+    MaterialSpinnerDemo
   ],
   providers: [ClassProvider(HeroService)],
   exports: [RoutePaths, Routes],
