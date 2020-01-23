@@ -5,7 +5,7 @@ $spinner-width: 28px;
 $stroke-width: 3px;
 
 :host {
-  animation: rotate 1568ms linear infinite;
+  animation: rotate 1000s linear infinite;
   border-color: $spinner-color;
   display: inline-block;
   height: $spinner-width;

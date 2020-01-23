@@ -1,0 +1,10 @@
+<h2>material-datepicker</h2>
+<div style="height: 600px; width: 500px; display: inline-block">
+  <h3>Required</h3>
+  <p>Selected: {{date}}</p>
+  <material-datepicker [(date)]="date"
+                       [minDate]="limitToRange.start"
+                       [maxDate]="limitToRange.end"
+                       [required]="true">
+  </material-datepicker>
+</div>
